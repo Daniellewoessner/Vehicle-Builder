@@ -2,7 +2,9 @@
   
 
   ## Description
-The Vehicle builder is a TypeScript command-line application that currently focuses on building and using cars, we can enhance its functionality by adding options for motorbikes and trucks. This update will involve modifying the existing codebase to include new classes and interfaces that represent motorbikes and trucks, similar to how cars are currently structured. By defining their unique properties, such as color, make, and model, we ensure that each vehicle type maintains its distinct characteristics. Additionally, we will modify the command-line interface to allow users to select between cars, motorbikes, and trucks when building vehicles. This might include options for specifying the number of wheels, towing capacity , and other specifications relevant to each vehicle type. We should also add validation to ensure that the provided inputs meet the requirements for each vehicle type, helping users avoid mistakes. Furthermore, incorporating helpful messages and prompts will make the application more user-friendly.  Ultimately, this update will make the application more versatile and appealing to a wider audience of vehicle enthusiasts.
+This weather dashboard provides a real-time snapshot of meteorological conditions across the country, powered by data sourced directly from OpenWeather.com via a secure API key. Users can easily access current weather information for a variety of locations, eliminating the need to consult multiple sources. The dashboard displays crucial weather metrics like temperature, humidity, wind speed and direction, and a descriptive weather condition, offering a comprehensive view. By leveraging the OpenWeather API, the dashboard ensures data accuracy and frequent updates, providing a reliable and convenient tool for staying informed about weather conditions in different areas.
+
+
   ## Table of Contents
   * [Description](#Description)
   * [Requirements](#Requirements)
@@ -19,7 +21,7 @@ The Vehicle builder is a TypeScript command-line application that currently focu
 To download the source code from a GitHub repository first navigate to the main page of the repository you are interested in. Once there look to the right side of the file list and click on the "Releases" section. This will take you to the Releases page where you can find various versions of the project. At the top of this page click on the "Tags" option to see different tagged releases. Finally to download the source code simply click on the zip file link provided.
 
   ## Usage
-   The application starts by prompting the user to either create a new vehicle or choose one from a list of existing vehicles. Once the user selects or creates a vehicle, they can perform various actions, like viewing details, editing information, or deleting the vehicle. After each action, the user is returned to the main actions menu, allowing them to easily choose another action or return to the vehicle selection screen. This cycle continues until the user decides to exit the application, ensuring a straightforward and user-friendly experience.
+  This weather dashboard is designed to provide users with comprehensive weather information across the entire country. Leveraging the power of the OpenWeatherMap API, the tool allows for highly specific and up-to-date weather data retrieval. By entering a location or using a map interface, users can access current conditions, forecasts, temperature details, humidity levels, wind speeds, and more. The integration with the OpenWeatherMap API ensures accurate and reliable data, making this dashboard a valuable resource for planning outdoor activities, monitoring weather patterns, or simply staying informed about the conditions in various locations nationwide. An API key, obtained from OpenWeatherMap.com, is a necessary component for accessing the API's full functionality and maintaining consistent service.
 
 
   ## Contributing
@@ -29,7 +31,6 @@ To download the source code from a GitHub repository first navigate to the main 
   * https://www.npmjs.com/package/inquirer
 
   ## Demo
-  [**Demo**](https://drive.google.com/file/d/1eB6KS1TuXCn4e_1fYqz_jbMiOxTo0Oh6/view?usp=drive_link)
 
   ## License
   Mit
